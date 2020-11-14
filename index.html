@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+
+  <!-- Font Awesome CSS Icons (For cool glyphicons) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+    <link rel="style" href="style.css">
+ 
+   
+  
+ 
+
+
+    <title>Forcast</title>
+</head>
+
+<body>
+    <h<div class="container">
+        <div class="jumbotron-fluid bg-dark text-white text-center">
+            <div class="container">
+                <h1 class="display-4">Weather Dashboard</h1>
+            </div>
+        </div>
+
+
+        <div class='container'>
+
+            <div class='row'>
+
+                <div class='col-sm-4'>
+
+                    <label for='city-search'>
+                        <h2>Search for a City</h2>
+                    </label>
+
+                    <form class='inputs'>
+
+                        <input id='search' type='search' placeholder='Search City Here'>
+
+                            <button class= 'searchButton' type='submit'>Search</button>
+                        </div>
+
+                    </form>
+
+                </div>
+                <ul id="list">
+                </ul>
+
+
+                <hr>
+
+                <div class='search-history'>
+
+                </div>
+
+                <div class="card col-12 col-md-8">
+                    <div class ="row">
+                      <div id = "cityInfo" class="card-body">
+                        <h1 class="card-title">City:</h1>
+                        <h2 id="city"></h2>
+                        <h2 id = "temp"></h2>
+                        <h2 id = "humidity"></h2>
+                        <h2 id = "wind"></h2>
+                      </div>
+                    </div>
+                    <div class = "row">
+                     
+                      <div class="container-fluid">
+                        <h4>
+                            5-Day Forecast:
+                        </h4>
+                        <div class="card text-white bg-primary mb-3" style="max-width: 9rem;">
+                            <div class="dayOne">
+                                <p class="Onetemp"></p>
+                                <p class="Onehumidity"></p>
+                            </div> 
+                    </div>
+                        <div class="card text-white bg-primary mb-3" style="max-width: 9rem;">
+                            <div class="dayTwo">
+                                <p class="twoTep"></p>
+                                <p class="twoHumidity"></p>
+                            </div>
+                    </div>
+                        <div class="card text-white bg-primary mb-3" style="max-width: 9rem;">
+                            <div class="dayThree">
+                                <p class="threeTemp"></p>
+                                <p class="threeHumidity"></p>
+                            </div>
+                    </div>
+                        
+                    <div class="card text-white bg-primary mb-3" style="max-width: 9rem;">
+                            <div class="dayFour">
+                                <p class="fourTemp"></p>
+                                <p class="fourHumidity"></p>
+                            </div>
+                    </div>
+            
+                    <div class="card text-white bg-primary mb-3" style="max-width: 9rem;">
+                            <div class="dayFive">
+                                <p class="fiveTemp"></p>
+                                <p class="fiveHumidity"></p>
+                            </div>
+                    </div>
+                    </div>
+                  </div>
+
+
+        </div>
+        <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript"></script>
+
+</body>
+
+
+</html>
